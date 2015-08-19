@@ -1108,6 +1108,21 @@ article footer .addthis iframe {
 .social-list a[title="zhihu"]::before {
   content: "\f1d6";
 }
+.archive-list {
+  font-size: 0.9em;
+  padding: 15px 20px;
+}
+.archive-list .archive-list-count {
+  margin-left: 8px;
+  font-size: 0.8em;
+  color: #777;
+}
+.archive-list .archive-list-count:before {
+  content: '(';
+}
+.archive-list .archive-list-count:after {
+  content: ')';
+}
 #footer {
   width: 96%;
   margin: 0 auto;
